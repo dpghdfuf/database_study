@@ -135,7 +135,7 @@ from
 select
 	product_size_id,
     product_size_name,
-    count(product_product_color_tbsize_id) as product_size_count
+    count(product_size_id) as product_size_count
 from
 	product_register_view
 group by
